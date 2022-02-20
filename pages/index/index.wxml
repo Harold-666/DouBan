@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<searchBar></searchBar>
+
+<!--电影-->
+<indexModule title="电影" items="{{movies}}" type="movie" moreUrl="/pages/moreList/moreList?type=movie"></indexModule>
+
+<!--电视剧-->
+<indexModule title="电视剧" items="{{tvs}}" type="tv" moreUrl="/pages/moreList/moreList?type=tv"></indexModule>
+
+<!--综艺-->
+<indexModule title="综艺" items="{{tv_varietys}}" type="tv_variety" moreUrl="/pages/moreList/moreList?type=tv_variety"></indexModule>

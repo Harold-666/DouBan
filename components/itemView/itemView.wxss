@@ -1,0 +1,29 @@
+/* components/itemView/itemView.wxss */
+.item-navigator{
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+
+.item-navigator .item-group{
+  width: 100%;
+}
+
+.item-group .item-view{
+  height: 284rpx;
+  width: 100%;
+}
+
+.item-view .item-img{
+  height: 100%;
+  width: 100%;
+}
+
+.item-view .item-title{
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}

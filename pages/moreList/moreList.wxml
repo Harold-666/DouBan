@@ -1,0 +1,5 @@
+<!--pages/moreList/moreList.wxml-->
+<searchBar></searchBar>
+<view class="container">
+  <itemView wx:for="{{items}}" wx:key="{{item.title}}" item="{{item}}" detailUrl="/pages/detail/detail?type={{type}}&id={{item.id}}"></itemView>
+</view>

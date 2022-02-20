@@ -1,0 +1,50 @@
+/* pages/search/search.wxss */
+.history-list-group{
+  padding: 10rpx 20rpx;
+}
+
+.history-list-group .history-title{
+  padding: 20rpx 10rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  color: #9e9e9e;
+}
+
+.history-list-group .history-group{
+  padding: 10rpx;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.item-list-group{
+  padding: 20rpx;
+}
+
+.item-list-group .item-group{
+  padding: 10rpx 0;
+  display: flex;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.item-group .thumbnail{
+  height: 100rpx;
+  width: 80rpx;
+  margin-right: 20rpx;
+}
+
+.item-group .info-group{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-group .title{
+  font-size: 32rpx;
+}
+
+.info-group .rate-year{
+  font-size: 28rpx;
+  color: #7b7b7b;
+}

@@ -1,0 +1,49 @@
+/* pages/comments/comments.wxss */
+.container{
+  padding: 20rpx 30rpx;
+}
+
+.container .item-group{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-group .thumbnail{
+  width: 50rpx;
+  height: 60rpx;
+}
+
+.item-group .item-title{
+  color: #00b26a;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.item-group .item-rate{
+  color: #ccc;
+}
+
+.comment-title{
+  margin-top: 60rpx;
+}
+
+.page-btn-group{
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-btn-group .page-pre-btn{
+  color: #00b26a;
+  border-color: #898989;
+  margin-right: 10rpx;
+}
+
+.page-btn-group .page-next-btn{
+  color: #00b26a;
+  border-color: #00b26a;
+  margin-left: 10rpx;
+}

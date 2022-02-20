@@ -1,0 +1,7 @@
+/* pages/moreList/moreList.wxss */
+.container{
+  padding: 35rpx;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
